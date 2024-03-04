@@ -19,6 +19,12 @@ height: 15vh;
 align-items: center;
 }
 
+#logo {
+    height: 7em;
+    width: 7em;
+    margin-left: 10%;
+}
+
 main {
     background-color: aqua;
     flex: 1 0 auto;
