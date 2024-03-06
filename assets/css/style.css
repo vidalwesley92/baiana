@@ -27,6 +27,7 @@ header {
 .baiana {
     display: flex;
     justify-content: center;
+    margin: 0 0 1% 0;
 }
 
 /* make the logo responsive */ 
@@ -36,7 +37,7 @@ header {
 }
 
 /* add hover effect */
-#menu a:hover, :active{
+nav a:hover, :active{
     background:#344459;
     color: #F2F2F2;
     size: 0;
@@ -45,13 +46,17 @@ header {
 #menu {
     display: flex;
     justify-content: space-between;
-    margin: 0 6vh 0 6vh;
+    
+    /* margin: 0 6vh 0 6vh;*/
 }
 
 #menu a{
     text-decoration: none;
     text-transform: uppercase;
+    border-style: solid;
+    padding: 0 14% 0 14%;
 }
+
 
 main {
     background-color: aqua;
@@ -61,6 +66,17 @@ main {
 footer {
     background-color:#F2F2F2;
     max-width: 100%;
-    height: auto;
+    /* height: 5vh;*/
     box-shadow: 0 -1px 4px #3a3a3a;
+}
+/* spread the logos evenly */
+#social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer  li {
+    list-style-type: none;
+    /*border-style: solid;*/
+    padding: 0 14% 0 14%;
 }
