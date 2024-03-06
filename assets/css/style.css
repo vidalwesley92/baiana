@@ -13,33 +13,44 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "roboto flex", sans-serif;
+    background-color: #F2F2F2;
 }
 
 header {
-background-color: white;
-max-width: 100%;
-z-index: 99;
-box-shadow: 0 2px 4px #3a3a3a;
-
-
+    background-color: #F2F2F2;
+    max-width: 100%;
+    z-index: 99;
+    box-shadow: 0 2px 4px #3a3a3a;
 }
 
 /* this will keep the logo visible in the nav bar*/
 .baiana {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
+/* make the logo responsive */ 
 #logo {
     max-width: 50%;
     height: auto;
 }
 
+/* add hover effect */
+#menu a:hover, :active{
+    background:#344459;
+    color: #F2F2F2;
+    size: 0;
+}
 
 #menu {
     display: flex;
     justify-content: space-between;
-    padding: 0 1vh 0 1vh;
+    margin: 0 6vh 0 6vh;
+}
+
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 main {
@@ -48,5 +59,8 @@ main {
 }
 
 footer {
-    background-color:blueviolet;
+    background-color:#F2F2F2;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 -1px 4px #3a3a3a;
 }
