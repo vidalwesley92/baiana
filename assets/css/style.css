@@ -15,7 +15,7 @@ body {
     font-family: "roboto flex", sans-serif;
     background-color: #F2F2F2;
 }
-
+/* !!! Header !!!*/
 header {
     background-color: #F2F2F2;
     max-width: 100%;
@@ -62,11 +62,21 @@ nav a:hover{
     text-transform: uppercase;
 }
 
+/* !!! Main !!!*/
 
 main {
     background-color: aqua;
     flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
+section {
+   flex:1;
+}
+
+
+/* !!! Footer !!! */
 
 footer {
     background-color:#F2F2F2;
