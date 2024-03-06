@@ -56,7 +56,7 @@ nav a:hover{
     /* margin: 0 6vh 0 6vh;*/
 }
 
-
+/* text decoration from links removed*/
 #menu a{
     text-decoration: none;
     text-transform: uppercase;
