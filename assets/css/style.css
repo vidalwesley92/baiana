@@ -1,5 +1,6 @@
 /* Font imported from Google fonts (Roboto Flex)*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* override default styles*/
 * {
@@ -15,12 +16,19 @@ body {
     font-family: "roboto flex", sans-serif;
     background-color: #F2F2F2;
 }
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 30%;
+}
+
 /* !!! Header !!!*/
 header {
     background-color: #F2F2F2;
-    max-width: 100%;
     z-index: 99;
     box-shadow: 0 2px 4px #3a3a3a;
+    position: fixed;
+    width: 100%;
 }
 
 /* this will keep the logo visible in the nav bar*/
@@ -53,27 +61,39 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     padding: 0 10% 0 10%;
-    /* margin: 0 6vh 0 6vh;*/
 }
 
 /* text decoration from links removed*/
 #menu a{
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 /* !!! Main !!!*/
 
 main {
-    background-color: aqua;
+    /*background-color: aqua;*/
     flex: 1 0 auto;
+    margin-top: 114px;
     display: flex;
     flex-direction: column;
 }
 
-section {
-   flex:1;
+#hero {
+    height: 631px;
+    width: 100%;
+    background: url(../images/hero_image.JPG) no-repeat left 15% center/cover;
 }
+
+
+/*#fade {
+    color: #F2F2F2;
+    background: rgb(114, 120, 140, .5);
+    position: relative;
+    padding: 15.5%;
+}*/
+
 
 
 /* !!! Footer !!! */
@@ -95,8 +115,22 @@ footer {
 
 footer  li {
     list-style-type: none;
-    /*border-style: solid;*/
     padding: 0 14% 0 14%;
     margin: 2% 0 2% 0;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {  
 }
 
