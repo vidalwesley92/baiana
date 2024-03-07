@@ -73,17 +73,17 @@ nav a:hover{
 /* !!! Main !!!*/
 
 main {
-    /*background-color: aqua;*/
     flex: 1 0 auto;
-    margin-top: 114px;
+    margin-top: 103px;
     display: flex;
     flex-direction: column;
 }
 
+/* hero image positioning */
 #hero {
-    height: 631px;
+    height: 520px;
     width: 100%;
-    background: url(../images/hero_image.JPG) no-repeat left 15% center/cover;
+    background: url(../images/hero_image.JPG) no-repeat left 27% center/cover;
 }
 
 
