@@ -17,8 +17,12 @@ body {
     background-color: #F2F2F2;
 }
 
-h1 {
+h1,h2 {
     font-family: "Playfair Display", serif;
+}
+
+p {
+    font-family: "roboto flex", sans-serif;
 }
 
 /* !!! Header !!!*/
@@ -82,7 +86,7 @@ main {
 #hero {
     height: 520px;
     width: 100%;
-    background: url(../images/hero_image.JPG) no-repeat left 27% center/cover;
+    background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
 }
 
 
@@ -91,19 +95,45 @@ main {
     background: rgb(114, 120, 140, .5);
     position: relative;
     padding: 15.5%;
-    padding-bottom: 333px;
+    padding-bottom: 341px;
 }
-
 
 #fade > h1 {
     color: #F2F2F2;
     text-align: center;
     margin-top: 0;
+    line-height: 40px;
 }
 
 #fade h1 em {
     font-size: 60px;
 }
+/* -- end of hero image -- */
+
+/* --- Section Offers ---*/
+
+#offers li {
+    border: solid red;
+}
+
+.title {
+    font-style: italic;
+    color: #344459;
+    text-align: center;
+}
+
+#snack> img {
+    width: 150px;
+}
+
+#meals > img {
+    width: 150px;
+}
+
+#catering > img {
+    width: 150px;
+}
+/* --- End of Section Offers ---*/
 
 /* !!! Footer !!! */
 
