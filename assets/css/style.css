@@ -19,7 +19,6 @@ body {
 
 h1 {
     font-family: "Playfair Display", serif;
-    font-weight: 30%;
 }
 
 /* !!! Header !!!*/
@@ -87,14 +86,24 @@ main {
 }
 
 
-/*#fade {
+#fade {
     color: #F2F2F2;
     background: rgb(114, 120, 140, .5);
     position: relative;
     padding: 15.5%;
-}*/
+    padding-bottom: 333px;
+}
 
 
+#fade > h1 {
+    color: #F2F2F2;
+    text-align: center;
+    margin-top: 0;
+}
+
+#fade h1 em {
+    font-size: 60px;
+}
 
 /* !!! Footer !!! */
 
