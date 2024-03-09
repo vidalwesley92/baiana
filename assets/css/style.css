@@ -52,7 +52,7 @@ nav a:visited{
 }
 
 /* add hover effect */
-nav a:hover{
+nav a:active{
     background:#344459;
     color: #F2F2F2;
     size: 0;
@@ -82,9 +82,9 @@ main {
     flex-direction: column;
 }
 
-/* hero image positioning */
+/* -- hero image positioning-- */
 #hero {
-    height: 520px;
+    height: 550px;
     width: 100%;
     background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
 }
@@ -95,7 +95,7 @@ main {
     background: rgb(114, 120, 140, .5);
     position: relative;
     padding: 15.5%;
-    padding-bottom: 341px;
+    padding-bottom: 372px;
 }
 
 #fade > h1 {
@@ -112,9 +112,36 @@ main {
 
 /* --- Section Offers ---*/
 
-#offers li {
-    border: solid red;
+#offers > div {
+    display: flex;
+    flex-direction: column;
+align-items: center;
 }
+
+#offers {
+    margin-top: 10px;
+}
+
+#offers p {
+    text-align: center;
+}
+
+#meals>p, #catering>p {
+    padding: 0 10px 0 10px;
+}
+
+#offers a {
+    text-decoration: none;
+    color: #344459;
+}
+
+#offers a:active {
+    background: #344459;
+    color: #F2F2F2;
+    size: 0;
+}
+
+
 
 .title {
     font-style: italic;
@@ -122,17 +149,11 @@ main {
     text-align: center;
 }
 
-#snack> img {
+.img-size {
     width: 150px;
 }
 
-#meals > img {
-    width: 150px;
-}
 
-#catering > img {
-    width: 150px;
-}
 /* --- End of Section Offers ---*/
 
 /* !!! Footer !!! */
@@ -171,5 +192,8 @@ footer  li {
 }
 
 @media screen and (min-width: 1200px) {  
+    br {
+        display: none;
+    }
 }
 
