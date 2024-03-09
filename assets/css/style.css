@@ -156,6 +156,12 @@ align-items: center;
 
 /* --- End of Section Offers ---*/
 
+/* -- Section Diet --*/
+
+#diet img {
+    width: 100%;
+}
+
 /* !!! Footer !!! */
 
 footer {
