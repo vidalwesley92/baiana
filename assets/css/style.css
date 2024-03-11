@@ -62,7 +62,7 @@ header {
 
 /* make the logo responsive */ 
 #logo {
-    max-width: 50%;
+    max-width: 35%;
     height: auto;
 }
 
@@ -73,11 +73,11 @@ header {
 }
 
 
-/* !!! Main !!!*/
+/* ------------------------------------------------------ Main -----*/
 
 main {
     flex: 1 0 auto;
-    margin-top: 103px;
+    margin-top: 79px;
     display: flex;
     flex-direction: column;
 }
@@ -95,7 +95,7 @@ main {
     background: rgb(114, 120, 140, .5);
     position: relative;
     padding: 15.5%;
-    padding-bottom: 372px;
+    padding-bottom: 332px;
 }
 
 #fade > h1 {
@@ -108,9 +108,9 @@ main {
 #fade h1 em {
     font-size: 60px;
 }
-/* -- end of hero image -- */
+/* -------------------------------------------------------- end of hero image -- */
 
-/* --- Section offers ---*/
+/* ---------------------------------------------------------- Section offers ---*/
 
 #offers > div, #diet > div {
     display: flex;
@@ -136,8 +136,24 @@ main {
 #diet img {
     width: 100%;
 }
-/* --- End of Section  offers---*/
+/* ------------------------------------------------------- End of Section  offers---*/
 
+/* ------------------------------------------------------------ Menu page -- */
+#display {
+    display: flex;
+    flex-direction: row;
+    flex: 0 2 auto;
+    border: solid red;
+    width: 100%;
+    height: auto;
+}
+
+#display img {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------------------------------- end of Menu page --- */
 
 /* !!! Footer !!! */
 
@@ -187,7 +203,11 @@ footer  li {
         background: rgb(114, 120, 140, .5);
         position: relative;
         padding: 15.5%;
-        padding-bottom: 17px;
+        padding-bottom: 10.5%;
+    }
+
+    #fade>h1 {
+        margin-top: -51px;
     }
 
     #no-break {
@@ -208,4 +228,3 @@ footer  li {
         display: none;
     }
 }
-
