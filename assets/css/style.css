@@ -141,17 +141,30 @@ main {
 /* ------------------------------------------------------------ Menu page -- */
 #display {
     display: flex;
-    flex-direction: row;
-    flex: 0 2 auto;
-    border: solid red;
+    flex-direction: column;
+    justify-items: flex-end;
     width: 100%;
     height: auto;
 }
 
 #display img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
+
+.align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#display a:active {
+    background: #344459;
+    color: #F2F2F2;
+    size: 0;
+}
+
+
 
 /* ---------------------------------------------------------- end of Menu page --- */
 
