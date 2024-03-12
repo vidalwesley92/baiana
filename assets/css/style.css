@@ -10,7 +10,6 @@
 }
 /* Style applied to the overall page*/
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: "roboto flex", sans-serif;
@@ -78,15 +77,15 @@ header {
 
 main {
     flex: 1 0 auto;
-    margin-top: 79px;
+    margin-top: 27%;
     display: flex;
     flex-direction: column;
 }
 
 /* -- hero image positioning-- */
 #hero {
-    height: 550px;
     width: 100%;
+    height: auto;
     background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
 }
 
@@ -272,7 +271,7 @@ main {
 
 footer {
     background-color:#F2F2F2;
-    max-width: 100%;
+    width: 100%;
     box-shadow: 0 -1px 4px #3a3a3a;
 }
 /* spread the logos evenly */
@@ -288,7 +287,44 @@ footer {
 footer  li {
     list-style-type: none;
     padding: 0 14% 0 14%;
-    margin: 2% 0 2% 0;
+    margin: 1% 0 1% 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 425px) {
+    #logo {
+        max-width: 35%;
+        height: auto;
+    }
+
+    #hero {
+        height: 213px;
+        width: 100%;
+        background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
+    }
+
+    main {
+        flex: 1 0 auto;
+        margin-top: 26%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #fade {
+        color: #F2F2F2;
+        background: rgb(114, 120, 140, .5);
+        position: relative;
+        padding: 15.5%;
+        padding-bottom: 14%;
+    }
+
+    #fade>h1 {
+        margin-top: -51px;
+    }
+
+    #no-break {
+        display: none;
+    }
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -330,6 +366,34 @@ footer  li {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    #hero {
+        height: auto;
+        width: 100%;
+        background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
+    }
+
+    main {
+        flex: 1 0 auto;
+        margin-top: 81px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #fade {
+        color: #F2F2F2;
+        background: rgb(114, 120, 140, .5);
+        position: relative;
+        padding: 15.5%;
+        padding-bottom: 10.5%;
+    }
+
+    #fade>h1 {
+        margin-top: -51px;
+    }
+
+    #no-break {
+        display: none;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -337,7 +401,28 @@ footer  li {
 }
 
 @media screen and (min-width: 1200px) {  
-    br {
-        display: none;
+    body{
+        margin: 0 20% 0 20%;
+        border: solid thin;
+        box-shadow: 2px 0px 2px #3a3a3a;
+    }
+
+    header {
+        background-color: #F2F2F2;
+        z-index: 99;
+        box-shadow: 0 2px 4px #3a3a3a;
+        width: 60%;
+    }
+
+    main {
+        margin-top: 12%;
+    }
+
+    .img-size {
+        width: 150px;
+    }
+    
+    #diet img {
+        width: 100%;
     }
 }
