@@ -140,22 +140,35 @@ main {
 
 /* ------------------------------------------------------------ Menu page -- */
 #display {
+    margin: 2% 0 0 1.5% ;
+}
+#resize {
     display: flex;
-    flex-direction: column;
-    justify-items: flex-end;
-    width: 100%;
-    height: auto;
+    flex-direction: row;
+    width: 31.5%;
 }
 
 #display img {
-    width: 90%;
-    height: auto;
+    width: 100%;
+    margin: 0 2% 2% 2%;
 }
 
-.align {
+#section-link {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#link1{
+    padding-left: 0%;
+} 
+#link2{
+    margin-right: 2%;
+}
+
+#link3{
+    margin-right: 5%;
 }
 
 #display a:active {
