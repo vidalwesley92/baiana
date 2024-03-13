@@ -198,6 +198,11 @@ h3, h2{
     text-align: center;
 }
 
+hr {
+    width: 80%;
+    margin-left: 8%;
+}
+
 .norm{
     display: flex;
     flex-direction: row;
@@ -217,6 +222,10 @@ h3, h2{
     color:#F2F2F2;
 }
 
+#title-sav, #title-dish, #title-sweets{
+    text-transform: uppercase;
+}
+
 #savory p, #sweets p, #dishes p{
     font-family: "roboto flex", sans-serif;
     font-size: 80%;
@@ -234,6 +243,12 @@ h3, h2{
     color:#344459;
 }
 
+#up>h4{
+    text-align: center;
+    text-transform: uppercase;
+    border: solid #344459;
+    margin: 2% 30% 3% 30%;
+}
 /* ---------------------------------------------------------- end of Menu page --- */
 
 /* !!! Footer !!! */
