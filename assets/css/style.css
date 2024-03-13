@@ -186,15 +186,15 @@ main {
 
 /* ---------------------- Savory section --------------------*/
 
-#savory{
+#savory, #dishes{
     background-color: #344459;
 }
 
-#savory span{
+#savory span, #sweets span, #dishes span{
     margin: 0 2% 10% 2%;
 }
 
-#savory h3{
+h3, h2{
     text-align: center;
 }
 
@@ -208,16 +208,16 @@ main {
     flex-direction:row-reverse;
 }
 
-#savory img{
+.img-size{
     width: 31%;
     height: auto;
 }
 
-#savory h3, #savory p{
+#savory h3, #savory p, #dishes h3, #dishes p, #title-sav, #title-dish{
     color:#F2F2F2;
 }
 
-#savory p{
+#savory p, #sweets p, #dishes p{
     font-family: "roboto flex", sans-serif;
     font-size: 80%;
     margin: 0 5% 0 5%;
@@ -230,41 +230,10 @@ main {
     background-color: #F2F2F2;
 }
 
-#sweets span{
-    margin: 0 2% 10% 2%;
-}
-
-#sweets h3{
-    text-align: center;
-}
-
-/*.norm{
-    display: flex;
-    flex-direction: row;
-}
-
-.flip{
-    display: flex;
-    flex-direction:row-reverse;
-}*/
-
-#sweets img{
-    width: 31%;
-    height: auto;
-}
-
-
-
-#sweets h3, #sweets p{
+#sweets h3, #sweets p, #title-sweets{
     color:#344459;
 }
 
-#sweets p{
-    font-family: "roboto flex", sans-serif;
-    font-size: 80%;
-    margin: 0 5% 0 5%;
-    text-align: left;
-}
 /* ---------------------------------------------------------- end of Menu page --- */
 
 /* !!! Footer !!! */
