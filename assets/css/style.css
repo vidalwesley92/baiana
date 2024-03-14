@@ -338,6 +338,14 @@ footer  li {
         width: 100%;
 }*/
 
+@-moz-document url-prefix() {
+    .firefox-resize {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 425px) {
     #logo {
         max-width: 35%;
