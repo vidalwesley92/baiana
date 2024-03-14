@@ -23,14 +23,12 @@ h1,h2, h3 {
 
 #snack>p, #meals>p, #catering>p, #diet p {
     padding: 0 10px 0 10px;
-    font-family: "roboto flex", sans-serif;
     text-align: center;
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Roboto Flex', sans-serif;
     color: #344459;
 }
 
@@ -86,7 +84,7 @@ main {
 #hero {
     width: 100%;
     height: auto;
-    background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
+    background: url(../images/hero_image.webp) no-repeat left 24% center/cover;
 }
 
 
@@ -132,8 +130,17 @@ main {
     width: 150px;
 }
 
+#diet {
+    background: url(../images/vegetables.webp) no-repeat left 24% center/cover;
+}
+
+#diet-fade {
+    background: rgb(242, 242, 242, .8);
+}
+
 #diet img {
     width: 100%;
+    display: none;
 }
 /* ---------------------------------------------------------------------------------------------------------*/
 
@@ -247,7 +254,7 @@ hr {
     text-align: center;
     text-transform: uppercase;
     border: solid #344459;
-    margin: 2% 30% 3% 30%;
+    margin: 3% 30% 3% 30%;
 }
 
 /*-----------------------------------contact page ---------------------------------*/
@@ -331,7 +338,7 @@ footer  li {
     #hero {
         height: auto;
         width: 100%;
-        background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
+        background: url(../images/hero_image.webp) no-repeat left 24% center/cover;
     }
 
     main {
@@ -368,7 +375,7 @@ footer  li {
     #hero {
         height: auto;
         width: 100%;
-        background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
+        background: url(../images/hero_image.webp) no-repeat left 24% center/cover;
     }
 
     main {
@@ -400,7 +407,7 @@ footer  li {
     #hero {
         height: auto;
         width: 100%;
-        background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
+        background: url(../images/hero_image.webp) no-repeat left 24% center/cover;
     }
 
     main {
