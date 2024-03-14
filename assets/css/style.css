@@ -19,7 +19,6 @@ body {
 
 h1,h2, h3 {
     font-family: "Playfair Display", serif;
-    font-style: italic;
 }
 
 #snack>p, #meals>p, #catering>p, #diet p {
@@ -250,7 +249,6 @@ hr {
     border: solid #344459;
     margin: 2% 30% 3% 30%;
 }
-/* ---------------------------------------------------------- end of Menu page --- */
 
 /*-----------------------------------contact page ---------------------------------*/
 #infos {
@@ -279,6 +277,10 @@ hr {
     width: 100%;
     height: auto;
 }
+
+#infos h3 {
+    color: #F2F2F2;
+    font-family: "roboto flex", sans-serif;
 
 #send-button {
     font-size: 100%;
