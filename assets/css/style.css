@@ -253,11 +253,12 @@ hr {
     color:#344459;
 }
 
-#up>h4{
+#up>h3{
     text-align: center;
     text-transform: uppercase;
     border: solid #344459;
     margin: 3% 30% 3% 30%;
+    font-family: "roboto flex", sans-serif;
 }
 
 /*-----------------------------------contact page ---------------------------------*/
@@ -339,10 +340,10 @@ footer  li {
 }*/
 
 @-moz-document url-prefix() {
-    .firefox-resize {
+    #resize {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        max-width: 100%;
     }
 }
 
