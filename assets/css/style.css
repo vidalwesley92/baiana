@@ -156,7 +156,7 @@ main {
 #resize {
     display: flex;
     flex-direction: row;
-    width: 31.5%;
+    max-width: 31.5%;
 }
 
 #display img {
@@ -330,6 +330,13 @@ footer  li {
     margin: 1% 0 1% 0;
     width: 100%;
 }
+
+/*@media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px){
+    #resize {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+}*/
 
 @media screen and (min-width: 425px) {
     #logo {
