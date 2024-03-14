@@ -78,7 +78,7 @@ header {
 
 main {
     flex: 1 0 auto;
-    margin-top: 27%;
+    margin-top: 26%;
     display: flex;
     flex-direction: column;
 }
@@ -215,7 +215,7 @@ hr {
 }
 
 .img-size{
-    width: 31%;
+    width: 150px;
     height: auto;
 }
 
@@ -255,12 +255,14 @@ hr {
 /*-----------------------------------contact page ---------------------------------*/
 #infos {
     background: url(../images/tropical-leaf.webp) no-repeat left 50% center/cover;
+    flex-grow: 1;
 }
 
 #form-info {
     margin: 10% 5% 10% 5%;
     padding: 5%;
     background: rgb(114, 120, 140, .7);
+    position: relative;
 }
 
 .text-input {
@@ -324,14 +326,14 @@ footer  li {
     }
 
     #hero {
-        height: 213px;
+        height: auto;
         width: 100%;
         background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
     }
 
     main {
         flex: 1 0 auto;
-        margin-top: 26%;
+        margin-top: 25%;
         display: flex;
         flex-direction: column;
     }
@@ -361,14 +363,14 @@ footer  li {
     }
 
     #hero {
-        height: 213px;
+        height: auto;
         width: 100%;
         background: url(../images/hero_image.JPG) no-repeat left 24% center/cover;
     }
 
     main {
         flex: 1 0 auto;
-        margin-top: 81px;
+        margin-top: 78px;
         display: flex;
         flex-direction: column;
     }
@@ -377,7 +379,7 @@ footer  li {
         color: #F2F2F2;
         background: rgb(114, 120, 140, .5);
         position: relative;
-        padding: 15.5%;
+        padding: 13.5%;
         padding-bottom: 10.5%;
     }
 
@@ -420,15 +422,17 @@ footer  li {
     #no-break {
         display: none;
     }
-}
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+    #form-info {
+        max-width: 70%;
+        left: 10%;
+        top: 80%;
+    }
 }
 
 @media screen and (min-width: 1200px) {  
     body{
-        margin: 0 20% 0 20%;
+        margin: 0 15% 0 15%;
         border: solid thin;
         box-shadow: 2px 0px 2px #3a3a3a;
     }
@@ -437,11 +441,11 @@ footer  li {
         background-color: #F2F2F2;
         z-index: 99;
         box-shadow: 0 2px 4px #3a3a3a;
-        width: 60%;
+        width: 70%;
     }
 
     main {
-        margin-top: 12%;
+        margin-top: 11%;
     }
 
     .img-size {
