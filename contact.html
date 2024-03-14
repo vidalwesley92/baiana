@@ -20,20 +20,41 @@
 </head>
 <body>
     <header>
-        <a href="index.html" class="baiana" aria-label="Go to homepage">
+        <a href="index.html" id="baiana" aria-label="Go to homepage">
             <img id="logo" src="assets/images/Baiana_name.png" alt="Logo Baiana">
         </a>
         <nav>
             <ul id="menu">
-                <il><a href="index.html" class="selected">home</a></il>
-                <il><a href="menu.html" class="selected">menu</a></il>
-                <il><a href="contact.html" class="selected"> contact</a></il>
+                <il><a href="index.html" class="selected" aria-label=" Go to homepage">home</a></il>
+                <il><a href="menu.html" class="selected" aria-label="Go to menu page">menu</a></il>
+                <il><a href="contact.html" class="selected" aria-label="Go to contact page"> contact</a></il>
             </ul>
         </nav>
     </header>
 
+
     <main>
-        contact
+        <section id="infos">
+            <form id="form-info" action="https://formdump.codeinstitute.net" method="post">
+                <h2>Talk to us! <br> Make a order or ask for more information</h2>
+                <br>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <br>
+                <label for="message">Message</label>
+                <textarea name="message" id="text-area" placeholder="Leave us a message with your order or question. " rows="10" cols="40"></textarea>
+                <button type="submit" id="send-button">send</button>
+            </form>
+        </section>
     </main>
 
     <footer>
