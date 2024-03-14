@@ -109,7 +109,6 @@ main {
 #fade h1 em {
     font-size: 60px;
 }
-/* -------------------------------------------------------- end of hero image -- */
 
 /* ---------------------------------------------------------- Section offers ---*/
 
@@ -123,6 +122,9 @@ main {
     margin-top: 10px;
 }
 
+#offers p, diet p {
+    margin: 15px 0 15px 0;
+}
 
 .title {
     color: #344459;
