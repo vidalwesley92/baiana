@@ -18,22 +18,12 @@ Visit [Baiana's website here](https://vidalwesley92.github.io/baiana/index.html)
      4. [Colour Scheme](Colour-Scheme)
      5. [Typography](#Typography)
 4. [Features](#Features)
-    1. [Design Features](#Design-Features) 
-    2. [Existing Features](#Existing-Features)
-    3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
-4. [Issues and Bugs](#Issues-and-Bugs)
-5. [Technologies Used](#Technologies-Used)
-     1. [Main Languages Used](#Main-Languages-Used)
-     3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
-6. [Testing](#Testing)
-     1. [Testing.md](TESTING.md)
-7. [Deployment](#Deployment)
-     1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
-8. [Credits](#Credits)
-     1. [Content](#Content)
-     2. [Media](#Media)
-     3. [Code](#Code)
-9. [Acknowledgements](#Acknowledgements)
+5. [Testing](#Testing)
+6. [Bugs](#Bugs)
+7. [Technologies Used](#Technologies-Used)
+8. [Deployment](#Deployment)
+9. [Credits](#Credits)
+10. [Acknowledgements](#Acknowledgements)
 
 ## Introduction
 
@@ -67,6 +57,8 @@ Creating a webpage for Baiana, a catering service specializing in typical food f
 - Attracting both local customers seeking traditional flavors and Brazilian immigrants longing for a taste of home;
 
 - Facilitate online orders or inquiries to streamline the catering process and enhance customer satisfaction.
+
+[Go to top ⇧](#Baiana)
 
 # Design
 
@@ -141,31 +133,172 @@ The typography of the Baiana website was carefully curated to reflect its person
 | Roboto Flex | https://fonts.google.com/specimen/Roboto+Flex?preview.text=Baiana%20comida%20tipica%20do%20T&preview.size=35&stroke=Sans+Serif |
 | Playfair Display | https://fonts.google.com/specimen/Playfair+Display?preview.text=Baiana%20comida%20tipica%20do%20T&preview.size=35&stroke=Serif |
 
+[Go to top ⇧](#Baiana)
 # Features
 
-## Navigation
+The Baiana website have the following feature:
 
-## Future Features
+* [Home page](https://vidalwesley92.github.io/baiana/index.html)
+     - Header with a full responsive navegation bar that gives access to two other pages;
+     - Hero image that in a way introduces the page and it´s intetion to the user;
+     - A body section that be navegated through scrolling;
+     - "Go to top "o the page link;
+     - A footer that gives access to all three main social media pages.
 
+* [Menu](https://vidalwesley92.github.io/baiana/menu.html)
+     - Header with a full responsive navegation bar that gives access to two other pages;
+     - Display with links that gives easy access to the diffent sections of the page;
+     - Sections of the page with pictures a ddeescriptions of the products that the Baiana service can provide to the users;
+     - "Go to top "o the page link;
+     - A footer that gives access to all three main social media pages.
+
+* [Contact](https://vidalwesley92.github.io/baiana/contact.html)
+     - Header with a full responsive navegation bar that gives access to two other pages;
+     - Form that allows the users to communicate withh the service provider;
+     - A footer that gives access to all three main social media pages.
+
+
+
+[Go to top ⇧](#Baiana)
 # Testing
+In this section of the README, various tests that the website underwent are showcased to assess its functionality.
+Each test provides valuable insights into the website's performance, functionality, and areas that require attention for future enhancements and optimizations.
 
 ## Code Validation
 
+All codes have been validated successfully. The HTML passed through the [W3C HTML Validator](https://validator.w3.org/) and the CSS through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). The following images display their respective validation results.
+
+<details>
+<summary>Index Page Validation</summary>
+
+![Index page](readme-assets/index_validation.gif)
+
+</details>
+
+<details>
+<summary>Menu Page Validation</summary>
+
+![Menu page](readme-assets/menu_validation.gif)
+
+</details>
+
+<details>
+<summary>Contact Page Validation</summary>
+
+![Contact page](readme-assets/contact_validation.gif)
+
+</details>
+
+<details>
+<summary>CSS Validation</summary>
+
+![CSS page](readme-assets/css_validation.gif)
+
+</details>
+
 ## Responsiveness
+
+
+In order to assess the responsiveness of the website, it was tested across various browsers and screen sizes, ranging from mobile phones to 4K desktop screens. Overall, the results were positive, with only one major bug identified.
+
+The bug was discovered on the Firefox browser, where it did not accept the width/max-width command as expected. Thanks to the Stack Overflow community, a solution was found. The solution involved applying a -moz- media query to apply specific dimensions only on Firefox browser ([Read Bugs](#Bugs) ).
+
+In all other browsers tested, the website performed well and displayed as expected across different screen sizes.
+
 
 ## Lighthouse Testing
 
+The website was subjected to the Lighthouse test to assess its quality and identify areas for improvement. The following images display the results of the test for both the mobile and desktop versions.
+
+<details>
+<summary>Lighthouse Mobile Test</summary>
+
+![Lighthouse Mobile Test](readme-assets/lighthouse_mobile.png)
+
+</details>
+
+<details>
+<summary>Lighthouse Desktop Test</summary>
+
+![Lighthouse Desktop Test](readme-assets/lighthouse_desktop.png)
+
+</details>
+<br/> 
+The test results indicated that despite the images being in the WebP format, further optimization is required, including proper sizing and compression, to achieve a higher score. This optimization is necessary and should be prioritized for future improvements.
+
 ## Accessibility Testing
+
+After running the page through the [Wave Accessibility Evaluation Tool](https://wave.webaim.org/),  the following results were obtained.
+
+<details>
+<summary>Home Page Test</summary>
+
+![Home Page Test](readme-assets/home_test.png)
+
+</details>
+
+<details>
+<summary>Menu Page Test</summary>
+
+![Menu Page Test](readme-assets/menu_test.png)
+
+</details>
+
+<details>
+<summary>contact Page Test</summary>
+
+![Contact Page Test](readme-assets/contact_test.png)
+
+</details>
 
 ## Manual Testing
 
+Manual testing was conducted by myself, along with a friend and several coworkers. This collaborative effort resulted in gathering valuable information, ranging from identifying bugs to outlining future improvements for the website. Below is a table summarizing the testing processes, expectations, and results:
+
+| Feature | Expectation | Action | Result |
+|---------|-------------|--------|--------|
+| Homepage navigation | Smooth scroll up and down experience expected | Scroll | Scroll experience was smooth|
+| Nav Bar | Open pages on click | Click | Pages opened when clicked |
+| Footer links | New page open on click | click | New page was opened when clicked|
+| Image resize| Dimension changes when the pages are resized| Resize | The images were resized when the pages size changed|
+| Resposivnes| Resposive behavior in multiple screens | Open the page in different sized screens| The website behaved responsive, except for Firefox|
+| Form Submit | Open form dump page | Submit Form | Form dump page was open |
+
+[Go to top ⇧](#Baiana)
 # Bugs
+
+During testing, several bugs were discovered, leading to malfunctions in certain features of the website. Below are some of the identified bugs along with their respective solutions.
 
 ## Bugs Fixed
 
-## Known Bugs
+| Bug Description | Browser/ Devices | Severity | Status/ Solution |
+|-----------------|------------------|----------|--------|
+|Unable to change size of icons contained within “i” tags | All | Minor | Fixed. Instead of resizing with the width and height attributes, font-size was used. |
+| br tag not working in Mozilla Firefox | FireFox | Moderate | Fixed. Removed the br tag and replaced the spacing with margin property. |
+Firefox wasn´t accepting the width property changing the images dimensions | Firefox |  Major | Fixed. Media query found on Stack Overflow solved the problem by applying a rule that would affect Firefox. ("@-moz-document url-prefix()")|
+|Menu links doesn't jump the right position on the page | all | Minor | To be fixed. As of now, the menu links jump to the approximate area they are intended to. |
+|Font size on screens above 1200px doesn´t act responsive as it is supposed to | all | Moderate | To be Fixed. |
+
+[Go to top ⇧](#Baiana)
 
 # Technologies Used
+
+### Laguagues used
+
+* HTML5
+* CSS3
+
+### Frameworks, libraries etc
+
+* [Google Fonts](https://fonts.google.com/);
+* [GitPod](https://gitpod.io/);
+* [GitHub](https://github.com/);
+* [Code Anywhere](https://codeanywhere.com/);
+* [Figma](https://www.figma.com/);
+* [Cloud Convert](https://cloudconvert.com/);
+* [W3School Color Converter](https://www.w3schools.com/colors/colors_converter.asp)
+
+[Go to top ⇧](#Baiana)
 
 # Deployment
 
@@ -182,7 +315,7 @@ To deploy this project's repository, follow these steps:
 9. Once saved, return to the repository and locate the deployments section on the right side of the page, then open it.
 10. After opening, the deployed link will be displayed under the title "All deployments" with the following structure: https://vidalwesley92.github.io/baiana/.
 
-
+[Go to top ⇧](#Baiana)
 
 # Credits 
 
@@ -196,6 +329,7 @@ through out this project many resources was utilised in order to complete it. He
 | Stack overflow | Collection of questions and answers helping with debuging. |
 | Love Running Project |Reference for coding workflow and good practices. |
 
+[Go to top ⇧](#Baiana)
 
 # Acknowledgements
 
@@ -207,5 +341,5 @@ Speacial thank you to:
 
 * Friends and colleagues for all the help provided during testing.
 
-
+[Go to top ⇧](#Baiana)
 
