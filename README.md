@@ -169,6 +169,22 @@ The typography of the Baiana website was carefully curated to reflect its person
 
 # Deployment
 
+
+To deploy this project's repository, follow these steps:
+
+1. Go to the Baiana repository on GitHub.
+2. Ensure that the HTML, CSS files, and the assets folder are in the repository.
+3. Navigate to the repository's navigation bar and open the "Settings" section.
+4. In the side menu, locate the "Pages" section and open it.
+5. Under the "Source" section, select "Deploy from the main branch".
+6. In the Branch section, select "main".
+7. Next to the branch options, select the Root folder.
+8. After selecting the branch and the folder, click "Save".
+9. Once saved, return to the repository and locate the deployments section on the right side of the page, then open it.
+10. After opening, the deployed link will be displayed under the title "All deployments" with the following structure: https://vidalwesley92.github.io/baiana/.
+
+
+
 # Credits 
 
 through out this project many resources was utilised in order to complete it. Here are the names of the resource que there due credit.
