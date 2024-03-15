@@ -169,7 +169,6 @@ The typography of the Baiana website was carefully curated to reflect its person
 
 # Deployment
 
-
 To deploy this project's repository, follow these steps:
 
 1. Go to the Baiana repository on GitHub.
