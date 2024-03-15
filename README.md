@@ -85,11 +85,61 @@ At a "pre-production" stage of the creation of this website, Figma was used to c
 
 ## Site Structure
 
+This structure outlines the main sections and sub-sections of the site, ensuring a seamless browsing experience for the user.
+
+<details>
+<summary>Sitemap</summary>
+
+![Baiana's Sitemap](readme-assets/Sitemap.jpg)
+
+</details>
+
 ## Imagery used
+The images utilized in the development of this website are a combination of personal photographs captured by the creator and selected images sourced from various online platforms.
+
+this a complete lis of the reasources and where it came from:
+
+| PICTURE NAME | SOURCE |
+| -------- | ------- |
+| beijinho | https://casaeculinaria.com/receitas/doces-e-sobremesas/  |
+| bobo | https://www.charlo.com.br/produto/bobo-de-camarao-com-acaca-300 |
+| brigadeiro | https://br.freepik.com/fotos-gratis/trufa-de-chocolate-caseira-em-um-prato-com-fundo-desfocado_28711040.htm#fromView=search&page=1&position=7&uuid=41fe24f1-7e67-40da-a868-423de9e807e1 |
+| cajuzinho | https://yesportuguese.com/cajuzinho |
+| caruru | https://www.guiadasemana.com.br/receitas/galeria/caruru-baiano-receita-original-bahia |
+| casadinho | https://www.amandocozinhar.com/2023/01/brigadeiro-casadinho.html |
+| catering | https://www.freepik.com/icon/catering_1940899#fromView=search&page=1&position=3&uuid=16c8aa66-6784-4f74-b66b-cb89bcbe9709 |
+| food_delivery | https://www.freepik.com/icon/tray_6099684#fromView=search&page=1&position=37&uuid=05cc1484-4c7b-4234-8a93-a55829cfe6b6 |
+| huaca | https://www.omundoeseu.com.br/conheca-as-20-comidas-tipicas-da-bahia-que-voce-precisa-provar/  |
+| meal_event | https://www.freepik.com/icon/schedule_10838166#fromView=search&page=1&position=1&uuid=e5d3f179-9b50-4f6e-9096-af705e95d9f6 |
+| moqueca | https://www.omundoeseu.com.br/conheca-as-20-comidas-tipicas-da-bahia-que-voce-precisa-provar/  |
+| olho_de_sogra | https://diariodonordeste.verdesmares.com.br/estilo-de-vida/culinaria/docinho-de-ameixa-aprenda-a-fazer-a-sobremesa-tradicional-1.3194436  |
+| rabada | https://www.omundoeseu.com.br/conheca-as-20-comidas-tipicas-da-bahia-que-voce-precisa-provar/  |
+| uva-encapada | https://vegcomcarinho.com.br/2022/12/01/como-fazer-surpresa-de-uva/ |
+| vatapa | https://globorural.globo.com/vida-na-fazenda/receitas/noticia/2022/04/como-fazer-vatapa-cremoso-e-com-consistencia-firme.html |
+| vegetables | https://www.freepik.com/free-photo/buddha-bowl-dish-with-vegetables-legumes-top-view_13807905.htm#fromView=search&page=1&position=2&uuid=72be37fd-05bc-4d04-b52a-267ebe23c8cc |
+
+The other images featured in this project is a selection of personal photographs taken by Wesley Vidal, the creator of this website. Wesley Vidal has generously granted permission to utilize these images specifically for this project, ensuring compliance with copyright regulations.
+
 
 ## Colour Scheme
 
+The color scheme for this project was meticulously curated by referencing the brand's logo and employing the powerful tools provided by [Adobe Color](https://color.adobe.com/). By inputting the brand's logo into Adobe Color, They were able to extract harmonious color palettes that resonate with the essence and identity of the brand. This process ensures that the chosen colors not only complement the logo but also maintain consistency throughout the project, creating a cohesive and visually appealing design aesthetic.
+
+<details>
+<summary>Color Scheme</summary>
+
+![Baiana's Colors Scheme](readme-assets/color.png)
+
+</details>
+
 ## Typography
+
+The typography of the Baiana website was carefully curated to reflect its personality: simplistic yet classic. Leveraging Google Fonts, Roboto Flex was chosen for its clean and responsive design, while Playfair Display adds a touch of sophistication to headings and visual elements, creating a balanced and cohesive typographic palette.
+
+| Fonte | Source |
+|-------|--------|
+| Roboto Flex | https://fonts.google.com/specimen/Roboto+Flex?preview.text=Baiana%20comida%20tipica%20do%20T&preview.size=35&stroke=Sans+Serif |
+| Playfair Display | https://fonts.google.com/specimen/Playfair+Display?preview.text=Baiana%20comida%20tipica%20do%20T&preview.size=35&stroke=Serif |
 
 # Features
 
