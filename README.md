@@ -171,4 +171,26 @@ The typography of the Baiana website was carefully curated to reflect its person
 
 # Credits 
 
+through out this project many resources was utilised in order to complete it. Here are the names of the resource que there due credit.
+
+| resources | Credit|
+|-----------|-------|
+| ChatGPT | The text, grammar, and spelling were refined, and copyright considerations were addressed with the assistance of ChatGPT. |
+| Favicon.io | Fast creation of all favicons necessary for the project. |
+| Freepik | Offering a vast collection of free and premium graphic resources |
+| Stack overflow | Collection of questions and answers helping with debuging. |
+| Love Running Project |Reference for coding workflow and good practices. |
+
+
 # Acknowledgements
+
+Speacial thank you to:
+
+* Amy, our cohort facilitator, for her availability, assistance, and encouragement throughout all the stages of this project;
+
+* Seun Owonikoko for all of her valuable inputs, orientation, and for sharing some of her real-world experiences;
+
+* Friends and colleagues for all the help provided during testing.
+
+
+
