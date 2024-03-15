@@ -332,13 +332,6 @@ footer  li {
     width: 100%;
 }
 
-/*@media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px){
-    #resize {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-}*/
-
 @-moz-document url-prefix() {
     #resize {
         display: flex;
